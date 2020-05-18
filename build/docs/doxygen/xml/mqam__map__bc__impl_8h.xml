@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="mqam__map__bc__impl_8h" kind="file" language="C++">
+    <compoundname>mqam_map_bc_impl.h</compoundname>
+    <includes refid="mqam__map__bc_8h" local="no">inatel5g/mqam_map_bc.h</includes>
+    <incdepgraph>
+      <node id="24">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="23">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="20">
+        <label>mqam_map_bc_impl.h</label>
+        <link refid="mqam_map_bc_impl.h"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>inatel5g/mqam_map_bc.h</label>
+        <link refid="mqam__map__bc_8h"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>inatel5g/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1inatel5g_1_1mqam__map__bc__impl" prot="public">gr::inatel5g::mqam_map_bc_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1inatel5g">gr::inatel5g</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatel5g/lib/mqam_map_bc_impl.h"/>
+  </compounddef>
+</doxygen>

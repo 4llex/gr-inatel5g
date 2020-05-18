@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacegr_1_1inatel5g" kind="namespace" language="C++">
+    <compoundname>gr::inatel5g</compoundname>
+    <innerclass refid="classgr_1_1inatel5g_1_1mqam__map__bc" prot="public">gr::inatel5g::mqam_map_bc</innerclass>
+    <innerclass refid="classgr_1_1inatel5g_1_1mqam__map__bc__impl" prot="public">gr::inatel5g::mqam_map_bc_impl</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatel5g/include/inatel5g/mqam_map_bc.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

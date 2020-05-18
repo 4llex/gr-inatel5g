@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<block>
+  <name>mqam_map_bc</name>
+  <key>inatel5g_mqam_map_bc</key>
+  <category>inatel5g</category>
+  <import>import inatel5g</import>
+  <make>inatel5g.mqam_map_bc($map_order)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>Mapping Order</name>
+    <key>map_order</key>
+    <type>int</type>
+    <option>
+      <name>BPSK</name>
+      <key>0</key>
+    </option>
+    <option>
+      <name>QPSK</name>
+      <key>1</key>
+    </option>
+    <option>
+      <name>QAM16</name>
+      <key>2</key>
+    </option>
+    <option>
+      <name>QAM32</name>
+      <key>3</key>
+    </option>
+    <option>
+      <name>QAM64</name>
+      <key>4</key>
+    </option>
+    <option>
+      <name>QAM128</name>
+      <key>5</key>
+    </option>
+    <option>
+      <name>QAM256</name>
+      <key>6</key>
+    </option>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

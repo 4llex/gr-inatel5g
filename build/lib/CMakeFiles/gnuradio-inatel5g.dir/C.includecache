@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatel5g/lib/do_map.c
+do_map.h
+/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatel5g/lib/do_map.h
+stdlib.h
+-
+complex.h
+-
+stdbool.h
+-
+math.h
+-
+inttypes.h
+-
+
+/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatel5g/lib/do_map.h
+complex.h
+-
+inttypes.h
+-
+stdlib.h
+-
+

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="api_8h" kind="file" language="C++">
+    <compoundname>api.h</compoundname>
+    <includes local="no">gnuradio/attributes.h</includes>
+    <includedby refid="mqam__map__bc_8h" local="no">mqam_map_bc.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="0">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4">
+        <label>mqam_map_bc_impl.h</label>
+        <link refid="mqam__map__bc__impl_8h"/>
+      </node>
+      <node id="3">
+        <label>mqam_map_bc.h</label>
+        <link refid="mqam__map__bc_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="api_8h_1afed4772e34b8f4a48eef2068340902c1" prot="public" static="no">
+        <name>INATEL5G_API</name>
+        <initializer>__GR_ATTR_IMPORT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatel5g/include/inatel5g/api.h" line="30" column="12" bodyfile="/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatel5g/include/inatel5g/api.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatel5g/include/inatel5g/api.h"/>
+  </compounddef>
+</doxygen>

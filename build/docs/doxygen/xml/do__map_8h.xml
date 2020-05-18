@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="do__map_8h" kind="file" language="C++">
+    <compoundname>do_map.h</compoundname>
+    <includes local="no">complex.h</includes>
+    <includes local="no">inttypes.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <incdepgraph>
+      <node id="5">
+        <label>do_map.h</label>
+        <link refid="do_map.h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>stdlib.h</label>
+      </node>
+      <node id="6">
+        <label>complex.h</label>
+      </node>
+      <node id="7">
+        <label>inttypes.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="do__map_8h_1a7fb87c298a4b7fa1cd31ccc0096c18a2" prot="public" static="no">
+        <name>data_t</name>
+        <initializer><ref refid="do__map_8h_1a7a9b5fb6180570701e4b136d63f937fc" kindref="member">cfloat</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatel5g/lib/do_map.h" line="26" column="9" bodyfile="/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatel5g/lib/do_map.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="do__map_8h_1acfc7a444ae5375780e6a6d8de1a97eff" prot="public" static="no">
+        <name>modname_t</name>
+        <enumvalue id="do__map_8h_1acfc7a444ae5375780e6a6d8de1a97effab2b7a6144155112bb56f6c4982c0adb2" prot="public">
+          <name>BPSK</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="do__map_8h_1acfc7a444ae5375780e6a6d8de1a97effab77a939b2acd607c7002e14c6d7b66b5" prot="public">
+          <name>QPSK</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="do__map_8h_1acfc7a444ae5375780e6a6d8de1a97effafb901c796522f9189d8d257597d9aa59" prot="public">
+          <name>QAM16</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="do__map_8h_1acfc7a444ae5375780e6a6d8de1a97effa9e7d79196349ce3d978ef7152388759b" prot="public">
+          <name>QAM32</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="do__map_8h_1acfc7a444ae5375780e6a6d8de1a97effa3e39f71ae2ec0c0016915b33718bb93d" prot="public">
+          <name>QAM64</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="do__map_8h_1acfc7a444ae5375780e6a6d8de1a97effa1423e285705af43c0ebbc703db1e548c" prot="public">
+          <name>QAM128</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="do__map_8h_1acfc7a444ae5375780e6a6d8de1a97effa0981ec608d9619bd7f4f174318457cb8" prot="public">
+          <name>QAM256</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatel5g/lib/do_map.h" line="16" column="1" bodyfile="/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatel5g/lib/do_map.h" bodystart="16" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="do__map_8h_1a7a9b5fb6180570701e4b136d63f937fc" prot="public" static="no">
+        <type>float _Complex</type>
+        <definition>typedef float _Complex cfloat</definition>
+        <argsstring></argsstring>
+        <name>cfloat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatel5g/lib/do_map.h" line="5" column="1" bodyfile="/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatel5g/lib/do_map.h" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="do__map_8h_1a7b0bf849bcf7ac9d13110a80cc646f43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void do_map</definition>
+        <argsstring>(modname_t, uint8_t *, data_t *, size_t)</argsstring>
+        <name>do_map</name>
+        <param>
+          <type><ref refid="do__map_8h_1acfc7a444ae5375780e6a6d8de1a97eff" kindref="member">modname_t</ref></type>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+        </param>
+        <param>
+          <type><ref refid="do__map_8h_1a7fb87c298a4b7fa1cd31ccc0096c18a2" kindref="member">data_t</ref> *</type>
+        </param>
+        <param>
+          <type>size_t</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatel5g/lib/do_map.h" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="do__map_8h_1ae2ee285dc7cfae32434e8163575623b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void init_constelation</definition>
+        <argsstring>(int DACMAX, int HEADROOM, int NFFT)</argsstring>
+        <name>init_constelation</name>
+        <param>
+          <type>int</type>
+          <declname>DACMAX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>HEADROOM</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>NFFT</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatel5g/lib/do_map.h" line="29" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatel5g/lib/do_map.h"/>
+  </compounddef>
+</doxygen>

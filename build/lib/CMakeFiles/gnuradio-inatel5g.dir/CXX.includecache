@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/inatel5g/api.h
+gnuradio/attributes.h
+-
+
+../include/inatel5g/mqam_map_bc.h
+inatel5g/api.h
+-
+gnuradio/sync_block.h
+-
+
+/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatel5g/lib/do_map.h
+complex.h
+-
+inttypes.h
+-
+stdlib.h
+-
+
+/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatel5g/lib/mqam_map_bc_impl.cc
+config.h
+/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatel5g/lib/config.h
+gnuradio/io_signature.h
+-
+mqam_map_bc_impl.h
+/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatel5g/lib/mqam_map_bc_impl.h
+do_map.h
+/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatel5g/lib/do_map.h
+
+/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatel5g/lib/mqam_map_bc_impl.h
+inatel5g/mqam_map_bc.h
+-
+

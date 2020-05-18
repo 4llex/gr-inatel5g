@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libgnuradio-inatel5g.so -o libgnuradio-inatel5g.so CMakeFiles/gnuradio-inatel5g.dir/mqam_map_bc_impl.cc.o CMakeFiles/gnuradio-inatel5g.dir/do_map.c.o -lboost_filesystem -lboost_system -lgnuradio-runtime -lgnuradio-pmt 

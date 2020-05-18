@@ -1,0 +1,58 @@
+Start testing: Sep 18 14:09 -03
+----------------------------------------------------------
+1/2 Testing: test_inatel5g
+1/2 Test: test_inatel5g
+Command: "/bin/sh" "/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatel5g/build/lib/test_inatel5g_test.sh"
+Directory: /home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatel5g/build/lib
+"test_inatel5g" start time: Sep 18 14:09 -03
+Output:
+----------------------------------------------------------
+.
+
+<end of output>
+Test time =   0.14 sec
+----------------------------------------------------------
+Test Passed.
+"test_inatel5g" end time: Sep 18 14:09 -03
+"test_inatel5g" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: qa_mqam_map_bc
+2/2 Test: qa_mqam_map_bc
+Command: "/bin/sh" "/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatel5g/build/python/qa_mqam_map_bc_test.sh"
+Directory: /home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatel5g/build/python
+"qa_mqam_map_bc" start time: Sep 18 14:09 -03
+Output:
+----------------------------------------------------------
+........
+----------------------------------------------------------------------
+Ran 8 tests in 0.011s
+
+OK
+test BPSK
+test QAM
+test 16QAM
+test 32QAM
+test 64QAM
+test 128QAM
+test 256QAM
+test QAM
+('bits de entrada:', [3, 2, 1, 0])
+test BPSK
+test QAM
+test 16QAM
+test 32QAM
+test 64QAM
+test 128QAM
+test 256QAM
+test QAM
+('bits de entrada:', [3, 2, 1, 0])
+<end of output>
+Test time =   8.55 sec
+----------------------------------------------------------
+Test Passed.
+"qa_mqam_map_bc" end time: Sep 18 14:09 -03
+"qa_mqam_map_bc" time elapsed: 00:00:08
+----------------------------------------------------------
+
+End testing: Sep 18 14:09 -03

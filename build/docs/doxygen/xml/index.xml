@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classgr_1_1inatel5g_1_1mqam__map__bc" kind="class"><name>gr::inatel5g::mqam_map_bc</name>
+    <member refid="classgr_1_1inatel5g_1_1mqam__map__bc_1a3c270eed01cfa1dc38e2a5e49365e501" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1inatel5g_1_1mqam__map__bc_1a6a0b2833cd787bfe97c75d14ab5429a9" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1inatel5g_1_1mqam__map__bc__impl" kind="class"><name>gr::inatel5g::mqam_map_bc_impl</name>
+    <member refid="classgr_1_1inatel5g_1_1mqam__map__bc__impl_1a913c853a2b965e87424b42aeda01f262" kind="variable"><name>d_map_order</name></member>
+    <member refid="classgr_1_1inatel5g_1_1mqam__map__bc__impl_1aa9a7dc97c3ac5e0a5ef99d9a06118f77" kind="function"><name>mqam_map_bc_impl</name></member>
+    <member refid="classgr_1_1inatel5g_1_1mqam__map__bc__impl_1aa9da56f9eb05167c3fbc0cdd448735b4" kind="function"><name>~mqam_map_bc_impl</name></member>
+    <member refid="classgr_1_1inatel5g_1_1mqam__map__bc__impl_1a16a4191ca73ec207b8b5a972c2214123" kind="function"><name>get_complex_symbol</name></member>
+    <member refid="classgr_1_1inatel5g_1_1mqam__map__bc__impl_1aaa00681e14430d8c20bd132bd1e8c5d0" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1inatel5g" kind="namespace"><name>gr::inatel5g</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1afed4772e34b8f4a48eef2068340902c1" kind="define"><name>INATEL5G_API</name></member>
+  </compound>
+  <compound refid="do__map_8h" kind="file"><name>do_map.h</name>
+    <member refid="do__map_8h_1a7fb87c298a4b7fa1cd31ccc0096c18a2" kind="define"><name>data_t</name></member>
+    <member refid="do__map_8h_1acfc7a444ae5375780e6a6d8de1a97eff" kind="enum"><name>modname_t</name></member>
+    <member refid="do__map_8h_1acfc7a444ae5375780e6a6d8de1a97effab2b7a6144155112bb56f6c4982c0adb2" kind="enumvalue"><name>BPSK</name></member>
+    <member refid="do__map_8h_1acfc7a444ae5375780e6a6d8de1a97effab77a939b2acd607c7002e14c6d7b66b5" kind="enumvalue"><name>QPSK</name></member>
+    <member refid="do__map_8h_1acfc7a444ae5375780e6a6d8de1a97effafb901c796522f9189d8d257597d9aa59" kind="enumvalue"><name>QAM16</name></member>
+    <member refid="do__map_8h_1acfc7a444ae5375780e6a6d8de1a97effa9e7d79196349ce3d978ef7152388759b" kind="enumvalue"><name>QAM32</name></member>
+    <member refid="do__map_8h_1acfc7a444ae5375780e6a6d8de1a97effa3e39f71ae2ec0c0016915b33718bb93d" kind="enumvalue"><name>QAM64</name></member>
+    <member refid="do__map_8h_1acfc7a444ae5375780e6a6d8de1a97effa1423e285705af43c0ebbc703db1e548c" kind="enumvalue"><name>QAM128</name></member>
+    <member refid="do__map_8h_1acfc7a444ae5375780e6a6d8de1a97effa0981ec608d9619bd7f4f174318457cb8" kind="enumvalue"><name>QAM256</name></member>
+    <member refid="do__map_8h_1a7a9b5fb6180570701e4b136d63f937fc" kind="typedef"><name>cfloat</name></member>
+    <member refid="do__map_8h_1a7b0bf849bcf7ac9d13110a80cc646f43" kind="function"><name>do_map</name></member>
+    <member refid="do__map_8h_1ae2ee285dc7cfae32434e8163575623b5" kind="function"><name>init_constelation</name></member>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="mqam__map__bc_8h" kind="file"><name>mqam_map_bc.h</name>
+  </compound>
+  <compound refid="mqam__map__bc__impl_8h" kind="file"><name>mqam_map_bc_impl.h</name>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_d4a722ee60693200dad94886cebff3f1" kind="dir"><name>inatel5g</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

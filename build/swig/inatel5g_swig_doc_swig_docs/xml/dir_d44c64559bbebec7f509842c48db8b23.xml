@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_d44c64559bbebec7f509842c48db8b23" kind="dir">
+    <compoundname>/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatel5g/include</compoundname>
+    <innerdir refid="dir_d4a722ee60693200dad94886cebff3f1">/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatel5g/include/inatel5g</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatel5g/include/"/>
+  </compounddef>
+</doxygen>

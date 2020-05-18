@@ -1,0 +1,11 @@
+<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="7" time="0.010">
+  <testcase classname="__main__.qa_mqam_map_bc" name="test_001_BPSK" time="0.0021"></testcase>
+  <testcase classname="__main__.qa_mqam_map_bc" name="test_002_QAM" time="0.0015"></testcase>
+  <testcase classname="__main__.qa_mqam_map_bc" name="test_003_16QAM" time="0.0014"></testcase>
+  <testcase classname="__main__.qa_mqam_map_bc" name="test_004_32QAM" time="0.0015"></testcase>
+  <testcase classname="__main__.qa_mqam_map_bc" name="test_005_64QAM" time="0.0014"></testcase>
+  <testcase classname="__main__.qa_mqam_map_bc" name="test_006_128QAM" time="0.0014"></testcase>
+  <testcase classname="__main__.qa_mqam_map_bc" name="test_007_256QAM" time="0.0004"></testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
